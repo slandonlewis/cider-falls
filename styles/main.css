@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+/* ALL TOP ITEMS */
+#top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(11, 185, 98);
+    text-align: center;
+    font-family: "Patua One", serif;
+}
+    /* SERVICES */
+.service-btn {
+    background-color: rgb(211, 102, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-family: "Patua One", serif;
+}
+
+#ul-left-to-right {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+
+#services {
+    text-align: center;
+    background-color: rgb(228, 149, 58);
+    position: fixed;
+    top: 200px;
+    left: 0;
+    width: 100%;
+}
+    /* Services End */
+/* Top End */
+
+
+/* MAIN CONTENT */
+#content {
+    margin-top: 295px;
+    padding: 1%;
+    color: azure;
+    font-family: "Patua One", serif;
+    background-color: rgba(165, 42, 42, 0.274);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* box around each area */
+.areaBox {
+    border: dotted;
+    border-color: goldenrod;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.areas-container {
+    display: flex;
+    /* border: dotted; */
+    width: 600px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+
+.section-box {
+    border: dotted;
+    border-color: goldenrod;
+    padding: 20px;
+    margin-right: 5px;
+}
+
+.area-section-box {
+    border: dotted;
+    border-color: goldenrod;
+    padding: 20px;
+    margin-right: 5px;
+}
+/* Content End */
+
+
+
+/* BACKGROUND */
+body {
+    background-image: url('../img/fall-creek-falls_hero.jpg');
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+/* BOTTOM */
+#bottom {
+    background-color: rgb(11, 185, 98);
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+/* Bottom End */
